@@ -1,0 +1,16 @@
+[
+  {
+    "id": "hire",
+    "question": "Can I hire you?",
+    "answer": "Yes, you can get in touch through the contact page to discuss a project.",
+    "contactUrl": "/contact",
+    "keywords": ["hire", "work with", "available", "embaucher", "collaborer", "freelance"]
+  },
+  {
+    "id": "estimate",
+    "question": "How can I get an estimate?",
+    "answer": "The pricing configurator lets you choose a website type and options and see an estimate.",
+    "configuratorUrl": "/pricing/website",
+    "keywords": ["estimate", "quote", "price", "pricing", "cost", "devis", "prix", "tarif"]
+  }
+]

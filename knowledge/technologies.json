@@ -1,0 +1,11 @@
+[
+  { "id": "nextjs", "name": "Next.js", "category": "frontend", "keywords": ["next", "nextjs", "next.js", "react framework", "app router"] },
+  { "id": "react", "name": "React", "category": "frontend", "keywords": ["react", "reactjs"] },
+  { "id": "typescript", "name": "TypeScript", "category": "language", "keywords": ["typescript", "ts"] },
+  { "id": "tailwind", "name": "Tailwind CSS", "category": "frontend", "keywords": ["tailwind", "css", "styling"] },
+  { "id": "postgresql", "name": "PostgreSQL", "category": "database", "keywords": ["postgres", "postgresql", "sql", "database"] },
+  { "id": "prisma", "name": "Prisma", "category": "database", "keywords": ["prisma", "orm"] },
+  { "id": "python", "name": "Python", "category": "language", "keywords": ["python"] },
+  { "id": "fastapi", "name": "FastAPI", "category": "backend", "keywords": ["fastapi", "api", "backend"] },
+  { "id": "langchain", "name": "LangChain", "category": "ai", "keywords": ["langchain", "llm", "rag", "ai"] }
+]

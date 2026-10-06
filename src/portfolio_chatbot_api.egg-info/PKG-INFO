@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: portfolio-chatbot-api
+Version: 0.1.0
+Summary: Independent AI chatbot backend for a developer portfolio
+Requires-Python: >=3.11
+Requires-Dist: fastapi>=0.110
+Requires-Dist: uvicorn[standard]>=0.29
+Requires-Dist: pydantic>=2.6
+Requires-Dist: pydantic-settings>=2.2
+Requires-Dist: httpx>=0.27
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.23; extra == "dev"

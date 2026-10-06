@@ -1,0 +1,8 @@
+{
+  "_todo": ["Add an email or other direct contact channel if you want the assistant to share it"],
+  "contactUrl": "/contact",
+  "pricingUrl": "/pricing",
+  "configuratorUrl": "/pricing/website",
+  "projectsUrl": "/projects",
+  "aboutUrl": "/about"
+}

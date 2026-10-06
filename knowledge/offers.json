@@ -1,0 +1,81 @@
+[
+  {
+    "_todo": "Scaffold only. Review every offer: confirm which types really come in template AND custom versions, fix features/tradeoffs, and make sure pricingUrl matches your configurator routes. Disable (enabled:false) what you do not sell.",
+    "id": "ecommerce-template",
+    "name": "Template-based E-commerce",
+    "type": "ecommerce",
+    "developmentType": "template",
+    "bestFor": ["a simpler and faster setup", "selling products online with standard functionality"],
+    "features": ["Product catalogue", "Product management", "Cart", "Checkout"],
+    "tradeoffs": {
+      "pros": ["Simpler and faster setup"],
+      "cons": ["Less room for custom functionality, integrations and design control"]
+    },
+    "pricingUrl": "/pricing/website/ecommerce",
+    "keywords": ["template", "simple", "fast", "quick", "online store"]
+  },
+  {
+    "id": "ecommerce-custom",
+    "name": "Custom E-commerce",
+    "type": "ecommerce",
+    "developmentType": "custom",
+    "bestFor": ["custom functionality", "specific integrations", "full control over the design"],
+    "features": ["Product catalogue", "Product management", "Cart", "Checkout", "Delivery integration"],
+    "tradeoffs": {
+      "pros": ["Custom functionality, integrations and control over the design"],
+      "cons": ["A bigger project than a template-based setup"]
+    },
+    "pricingUrl": "/pricing/website/ecommerce",
+    "keywords": ["custom", "integration", "delivery", "livraison", "payment", "tailor-made", "sur mesure"]
+  },
+  {
+    "id": "showcase-website",
+    "name": "Showcase website",
+    "type": "showcase",
+    "bestFor": ["presenting a business, services or a catalogue without online purchase"],
+    "features": ["Presentation pages", "Catalogue-style content"],
+    "pricingUrl": "/pricing/website/showcase",
+    "keywords": ["vitrine", "catalogue", "presentation", "browse"]
+  },
+  {
+    "id": "business-website",
+    "name": "Business website",
+    "type": "business",
+    "bestFor": ["companies and independent professionals who need an online presence"],
+    "features": [],
+    "pricingUrl": "/pricing/website/business"
+  },
+  {
+    "id": "corporate-website",
+    "name": "Corporate website",
+    "type": "corporate",
+    "bestFor": ["larger, more structured company websites"],
+    "features": [],
+    "pricingUrl": "/pricing/website/corporate"
+  },
+  {
+    "id": "portfolio-website",
+    "name": "Portfolio website",
+    "type": "portfolio",
+    "bestFor": ["personal and professional portfolios"],
+    "features": [],
+    "pricingUrl": "/pricing/website/portfolio"
+  },
+  {
+    "id": "crm",
+    "name": "CRM / management tool",
+    "type": "crm",
+    "bestFor": ["managing customers, orders or internal processes"],
+    "features": [],
+    "pricingUrl": "/pricing/website/crm"
+  },
+  {
+    "id": "web-application",
+    "name": "Custom web application",
+    "type": "webapp",
+    "developmentType": "custom",
+    "bestFor": ["requirements that do not fit a standard website"],
+    "features": [],
+    "pricingUrl": "/pricing/website/webapp"
+  }
+]

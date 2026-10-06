@@ -1,0 +1,13 @@
+{
+  "_todo": [
+    "Confirm the display name",
+    "Add availability, work mode (remote / on-site), years of experience, rates policy if you want the assistant to answer those",
+    "Anything missing here makes the assistant say it does not have that information"
+  ],
+  "name": "Wado",
+  "role": "Freelance full-stack web developer",
+  "location": "Algeria",
+  "education": "University student",
+  "description": "Freelance developer building websites, web applications and AI/ML projects.",
+  "languages": ["French", "English"]
+}

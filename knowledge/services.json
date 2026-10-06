@@ -1,0 +1,27 @@
+[
+  {
+    "id": "web-development",
+    "name": "Web Development",
+    "description": "Websites for businesses and individuals: portfolio, showcase, business, corporate and e-commerce sites.",
+    "technologies": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    "keywords": ["website", "site", "web", "vitrine", "ecommerce", "frontend", "seo"],
+    "priority": 1
+  },
+  {
+    "id": "web-applications",
+    "name": "Web applications and dashboards",
+    "description": "Custom web applications, CRM-style management tools and admin dashboards.",
+    "technologies": ["Next.js", "PostgreSQL", "Prisma"],
+    "keywords": ["application", "app", "dashboard", "admin", "crm", "management", "backend"],
+    "priority": 2
+  },
+  {
+    "id": "ai-integration",
+    "name": "AI solutions",
+    "description": "AI and ML projects such as chatbots and retrieval-based assistants.",
+    "status": "coming_soon",
+    "technologies": ["Python", "FastAPI", "LangChain"],
+    "keywords": ["ai", "ia", "chatbot", "llm", "rag", "machine learning", "ml", "assistant"],
+    "priority": 3
+  }
+]

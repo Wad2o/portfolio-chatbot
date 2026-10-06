@@ -1,0 +1,20 @@
+[
+  {
+    "id": "frontend",
+    "name": "Frontend development",
+    "description": "Responsive, accessible interfaces with a focus on performance and SEO.",
+    "keywords": ["frontend", "react", "nextjs", "next.js", "tailwind", "seo", "accessibility", "ui"]
+  },
+  {
+    "id": "backend",
+    "name": "Backend and databases",
+    "description": "APIs, authentication and data storage for web applications.",
+    "keywords": ["backend", "api", "database", "postgresql", "prisma", "fastapi", "python"]
+  },
+  {
+    "id": "ai-ml",
+    "name": "AI and machine learning",
+    "description": "LLM-based assistants, retrieval-augmented generation and ML projects.",
+    "keywords": ["ai", "ml", "llm", "rag", "langchain", "chatbot"]
+  }
+]

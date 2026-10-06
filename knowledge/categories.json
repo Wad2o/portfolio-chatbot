@@ -1,0 +1,90 @@
+{
+  "_note": "Project types drive qualification and the 'configure' action. Add a new service by adding an entry here (and an offer in offers.json). Ids must match the pricing configurator types.",
+  "projectTypes": [
+    {
+      "id": "portfolio",
+      "label": "Portfolio website",
+      "description": "A personal or professional portfolio.",
+      "keywords": ["portfolio", "personal site", "cv", "freelancer", "photographer", "designer", "artist"],
+      "qualificationQuestions": [
+        "What do you want the portfolio to showcase?",
+        "How many pages do you roughly need?",
+        "Do you need it in more than one language?"
+      ]
+    },
+    {
+      "id": "showcase",
+      "label": "Showcase / vitrine website",
+      "description": "A site presenting a business, its services or catalogue, without online purchase.",
+      "keywords": ["showcase", "vitrine", "catalogue", "catalog", "presentation", "restaurant", "menu", "brochure", "small business"],
+      "qualificationQuestions": [
+        "Do you want visitors to only browse (catalogue / presentation) or to buy online?",
+        "Roughly how many pages do you need?",
+        "Do you need to update content yourself?"
+      ]
+    },
+    {
+      "id": "business",
+      "label": "Business website",
+      "description": "A website for a company or independent professional.",
+      "keywords": ["business", "company", "entreprise", "startup", "agency", "agence", "services page"],
+      "qualificationQuestions": [
+        "What should the website help your business do (get contacts, present services, book appointments)?",
+        "Roughly how many pages do you need?",
+        "Do you need specific integrations?"
+      ]
+    },
+    {
+      "id": "corporate",
+      "label": "Corporate website",
+      "description": "A larger, more structured company website.",
+      "keywords": ["corporate", "institutional", "institutionnel", "large company", "multi-language", "multilingual", "careers"],
+      "qualificationQuestions": [
+        "How many sections or pages do you expect?",
+        "Do you need several languages?",
+        "Do you need to connect other tools or systems?"
+      ]
+    },
+    {
+      "id": "ecommerce",
+      "label": "E-commerce website",
+      "description": "An online store where customers buy directly.",
+      "keywords": ["ecommerce", "e-commerce", "shop", "store", "boutique", "magasin", "sell online", "vendre", "products", "produits", "clothing", "vetements", "furniture", "meubles", "cart", "checkout", "payment", "paiement", "delivery", "livraison"],
+      "qualificationQuestions": [
+        "Do you want customers to buy directly online?",
+        "Do you want to manage products yourself?",
+        "Do you need online payment?",
+        "Do you need delivery company integration?",
+        "Do you prefer a simpler template-based solution or a fully custom one?",
+        "Do you have specific integrations in mind?",
+        "Roughly how many pages do you need?"
+      ]
+    },
+    {
+      "id": "crm",
+      "label": "CRM / management tool",
+      "description": "A tool to manage customers, orders or internal processes.",
+      "keywords": ["crm", "customers", "clients", "management", "gestion", "dashboard", "admin", "orders", "commandes", "internal tool"],
+      "qualificationQuestions": [
+        "What do you need to manage (customers, orders, stock, appointments)?",
+        "How many people will use it?",
+        "Do you need to connect it to other tools?"
+      ]
+    },
+    {
+      "id": "webapp",
+      "label": "Custom web application",
+      "description": "A web application built around specific requirements.",
+      "keywords": ["web app", "webapp", "application", "platform", "plateforme", "saas", "custom software", "portal", "portail"],
+      "qualificationQuestions": [
+        "What is the main thing the application must do?",
+        "Who will use it?",
+        "Do you need user accounts or integrations?"
+      ]
+    }
+  ],
+  "developmentTypes": [
+    { "id": "template", "label": "Template-based" },
+    { "id": "custom", "label": "Custom" }
+  ]
+}

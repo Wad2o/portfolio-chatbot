@@ -1,0 +1,30 @@
+[
+  {
+    "_todo": "All disabled on purpose. Confirm each project is public, fix the description/technologies, add a url, then set enabled to true.",
+    "id": "maotei",
+    "enabled": false,
+    "title": "Maotei",
+    "description": "Showcase website and showroom dashboard for a flooring and interior coverings brand in Algiers.",
+    "technologies": ["React"],
+    "category": "showcase",
+    "keywords": ["showcase", "dashboard", "flooring", "showroom"]
+  },
+  {
+    "id": "visit-algeria-tours",
+    "enabled": false,
+    "title": "Visit Algeria Tours",
+    "description": "Full-stack travel agency application for tours in Algeria.",
+    "technologies": [],
+    "category": "webapp",
+    "keywords": ["travel", "tourism", "agency", "booking"]
+  },
+  {
+    "id": "rag-chatbot",
+    "enabled": false,
+    "title": "RAG chatbot for content creators",
+    "description": "Retrieval-augmented chatbot for content creators, built as a hackathon project.",
+    "technologies": [],
+    "category": "ai",
+    "keywords": ["rag", "chatbot", "ai", "hackathon"]
+  }
+]
